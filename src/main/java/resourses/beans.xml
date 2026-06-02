@@ -4,11 +4,11 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
 		https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="..." class="...">
+    <bean id="Product1" class="com.maven.spring.bean.Product">
         <!-- collaborators and configuration for this bean go here -->
     </bean>
 
-    <bean id="..." class="...">
+    <bean id="Product2" class="com.maven.spring.bean.Product">
         <!-- collaborators and configuration for this bean go here -->
     </bean>
 

@@ -1,11 +1,21 @@
 package com.maven.spring.bean;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@Data
+
+
 public class Product {
     private int id;
     private String name;
     private String brand;
     private int price;
     private int manufactureYear;
+
+
+    public Product() {
+    }
 
     public Product(int id, String name, String brand, int price, int manufactureYear) {
         this.id = id;
