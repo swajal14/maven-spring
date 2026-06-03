@@ -13,9 +13,6 @@ public class Product {
     private String name;
     private String brand;
     private int price;
-
-
-
     private int manufactureYear;
 
 
