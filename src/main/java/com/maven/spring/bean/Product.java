@@ -2,8 +2,10 @@ package com.maven.spring.bean;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
+
 
 
 public class Product {
